@@ -1,0 +1,23 @@
+version: '3'
+services:   
+  banco:
+    container_name: banco
+    image: ricardojob/banco:3
+    build: ./postgres
+    ports: 
+    - "5433:5432"
+    volumes:
+    - "dbdata:/var/lib/postgresql/data"
+  app:
+    container_name: app
+    image: ricardojob/app:6
+    build: ./app
+    ports: 
+     - "8080:8080"
+    depends_on: 
+     - banco
+    links: 
+     - "banco:host-banco"  
+volumes: 
+  dbdata:
+   driver: local
