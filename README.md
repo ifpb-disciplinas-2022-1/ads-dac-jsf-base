@@ -16,4 +16,6 @@ A aplicação está disponível no link: `http://localhost:8081/app/`.
 ## Roteiro de estudos
 
 
-Temos um roteiro de apoio para revisar os conteúdos apresentados. Neste [roteiro](https://docs.google.com/document/d/1qjF9LxVsnIU8R0Ad3z1T5acijp4RUB52BSF70p3cqPg/edit) temos **oito** requisitos que após serem implementados, temos revisado todos os principais conceitos do framework Java ServerFaces.
+Temos um roteiro de apoio para revisar os conteúdos apresentados. Neste [roteiro]() temos **oito** requisitos que após serem implementados, temos revisado todos os principais conceitos do framework Java ServerFaces.
+
+<!-- Temos um roteiro de apoio para revisar os conteúdos apresentados. Neste [roteiro](https://docs.google.com/document/d/1qjF9LxVsnIU8R0Ad3z1T5acijp4RUB52BSF70p3cqPg/edit) temos **oito** requisitos que após serem implementados, temos revisado todos os principais conceitos do framework Java ServerFaces. -->
